@@ -4,10 +4,10 @@ import static org.junit.Assert.assertEquals;
 public class HelloTest {
     @Test
     public void testHello() {
-        assertEquals("hello, world!", hello());
+        assertEquals("Hello World", hello());
     }
 
     public static String hello() {
-        return "hello, world!";
+        return "Hello World";
     }
 }
